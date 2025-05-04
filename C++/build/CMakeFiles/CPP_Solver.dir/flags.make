@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/yohann/projects/3D-FEM/C++/. -I/home/yohann/projects/3D-FEM/C++/lib/matplotlib -I/home/yohann/projects/3D-FEM/C++/lib/Eigen -I/home/yohann/projects/3D-FEM/C++/lib/Json/include -I/usr/include/python3.10
+CXX_INCLUDES = -I/home/yohann/projects/3D-FEM/C++/. -I/home/yohann/projects/3D-FEM/C++/lib/Eigen -I/home/yohann/projects/3D-FEM/C++/lib/Json/include
 
-CXX_FLAGS = -std=gnu++14
+CXX_FLAGS = 
 

@@ -382,11 +382,7 @@ _Python3_INTERPRETER_SIGNATURE:INTERNAL=b91b4035ecb3bb3f5760d35922531bcd
 //Path to a library.
 _Python3_LIBRARY_RELEASE:INTERNAL=/usr/lib/x86_64-linux-gnu/libpython3.10.so
 //Path to a program.
-_Python_CONFIG:INTERNAL=/usr/bin/x86_64-linux-gnu-python3.10-config
-_Python_DEVELOPMENT_EMBED_SIGNATURE:INTERNAL=625d9e0f7a1af1ddb80bfa11fbea90e0
-_Python_DEVELOPMENT_MODULE_SIGNATURE:INTERNAL=4bc14a0ea6a21ea267e38aa660e9b54b
-//Path to a file.
-_Python_INCLUDE_DIR:INTERNAL=/usr/include/python3.10
+_Python_CONFIG:INTERNAL=_Python_CONFIG-NOTFOUND
 //Path to a library.
-_Python_LIBRARY_RELEASE:INTERNAL=/usr/lib/x86_64-linux-gnu/libpython3.10.so
+_Python_LIBRARY_RELEASE:INTERNAL=_Python_LIBRARY_RELEASE-NOTFOUND
 

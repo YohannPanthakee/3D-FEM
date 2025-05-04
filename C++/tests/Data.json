@@ -66,19 +66,32 @@
     {
       "id": 1,
       "node_ids": [1,2],
-      "material_id": 1
+      "material_name": "Steel"
+    },
+    {
+      "id": 2,
+      "node_ids": [2,3],
+      "material_name": "Aluminium"
     }
   ],
 
   "materials": [
     {
-      "id": 1,
       "name": "Steel",
       "properties": {
         "youngs_modulus": 210000000000,
         "cross_sectional_area": 0.0001
       }
+    },
+    
+    {
+      "name": "Aluminium",
+      "properties": {
+        "youngs_modulus": 210,
+        "cross_sectional_area": 0.1
+      }
     }
+    
   ],
   
   "units": [

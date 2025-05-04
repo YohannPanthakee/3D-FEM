@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/CPP_Solver.dir/main.cpp.o CMakeFiles/CPP_Solver.dir/src/loader.cpp.o -o CPP_Solver  /usr/lib/x86_64-linux-gnu/libpython3.10.so 
+/usr/bin/c++ CMakeFiles/CPP_Solver.dir/main.cpp.o CMakeFiles/CPP_Solver.dir/src/mesh.cpp.o CMakeFiles/CPP_Solver.dir/src/node.cpp.o CMakeFiles/CPP_Solver.dir/src/element.cpp.o CMakeFiles/CPP_Solver.dir/src/material.cpp.o -o CPP_Solver 
