@@ -31,3 +31,7 @@ repository_eigen="https://gitlab.com/libeigen/eigen.git"
 localFolder_eigen="lib/Eigen"
 git clone "$repository_eigen" "$localFolder_eigen"
 
+## clone json
+repository_json="https://github.com/nlohmann/json.git"
+localFolder_json="lib/Json"
+git clone "$repository_json" "$localFolder_json"

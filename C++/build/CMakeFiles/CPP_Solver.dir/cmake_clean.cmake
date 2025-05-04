@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CPP_Solver.dir/src/main.cpp.o"
-  "CMakeFiles/CPP_Solver.dir/src/main.cpp.o.d"
+  "CMakeFiles/CPP_Solver.dir/main.cpp.o"
+  "CMakeFiles/CPP_Solver.dir/main.cpp.o.d"
+  "CMakeFiles/CPP_Solver.dir/src/loader.cpp.o"
+  "CMakeFiles/CPP_Solver.dir/src/loader.cpp.o.d"
   "CPP_Solver"
   "CPP_Solver.pdb"
 )

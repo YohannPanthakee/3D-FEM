@@ -1,0 +1,93 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "pos": [-0.953,0,5.08],
+      "load": [0,0,0],
+      "constraint": [0,0,1]
+    },
+    {
+      "id": 2,
+      "pos": [-0.953,0,5.08],
+      "load": [0,0,0],
+      "constraint": [0,0,1]
+    },
+    {
+      "id": 3,
+      "pos": [-0.953,0,5.08],
+      "load": [0,0,0],
+      "constraint": [0,0,1]
+    },
+    {
+      "id": 4,
+      "pos": [-0.953,0,5.08],
+      "load": [0,0,0],
+      "constraint": [0,0,1]
+    },
+    {
+      "id": 5,
+      "pos": [-0.953,0,5.08],
+      "load": [0,0,0],
+      "constraint": [0,0,1]
+    },
+    {
+      "id": 6,
+      "pos": [-0.953,0,5.08],
+      "load": [0,0,0],
+      "constraint": [0,0,1]
+    },
+    {
+      "id": 7,
+      "pos": [-0.953,0,5.08],
+      "load": [0,0,0],
+      "constraint": [0,0,1]
+    },
+    {
+      "id": 8,
+      "pos": [-0.953,0,5.08],
+      "load": [0,0,0],
+      "constraint": [0,0,1]
+    },
+    {
+      "id": 9,
+      "pos": [-0.953,0,5.08],
+      "load": [0,0,0],
+      "constraint": [0,0,1]
+    },
+    {
+      "id": 10,
+      "pos": [-0.953,0,5.08],
+      "load": [0,0,0],
+      "constraint": [0,0,1]
+    }
+  ],
+
+  "elements": [
+    {
+      "id": 1,
+      "node_ids": [1,2],
+      "material_id": 1
+    }
+  ],
+
+  "materials": [
+    {
+      "id": 1,
+      "name": "Steel",
+      "properties": {
+        "youngs_modulus": 210000000000,
+        "cross_sectional_area": 0.0001
+      }
+    }
+  ],
+  
+  "units": [
+    {
+      "pos": "m",
+      "load": "N",
+      "youngs_modulus": "MPa",
+      "cross_sectional_area": "m^2"
+    }
+  ]
+
+}

@@ -129,29 +129,53 @@ CPP_Solver/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Solver.dir/build.make CMakeFiles/CPP_Solver.dir/build
 .PHONY : CPP_Solver/fast
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+main.o: main.cpp.o
+.PHONY : main.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Solver.dir/build.make CMakeFiles/CPP_Solver.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Solver.dir/build.make CMakeFiles/CPP_Solver.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Solver.dir/build.make CMakeFiles/CPP_Solver.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Solver.dir/build.make CMakeFiles/CPP_Solver.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Solver.dir/build.make CMakeFiles/CPP_Solver.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Solver.dir/build.make CMakeFiles/CPP_Solver.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+src/loader.o: src/loader.cpp.o
+.PHONY : src/loader.o
+
+# target to build an object file
+src/loader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Solver.dir/build.make CMakeFiles/CPP_Solver.dir/src/loader.cpp.o
+.PHONY : src/loader.cpp.o
+
+src/loader.i: src/loader.cpp.i
+.PHONY : src/loader.i
+
+# target to preprocess a source file
+src/loader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Solver.dir/build.make CMakeFiles/CPP_Solver.dir/src/loader.cpp.i
+.PHONY : src/loader.cpp.i
+
+src/loader.s: src/loader.cpp.s
+.PHONY : src/loader.s
+
+# target to generate assembly for a file
+src/loader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Solver.dir/build.make CMakeFiles/CPP_Solver.dir/src/loader.cpp.s
+.PHONY : src/loader.cpp.s
 
 # Help Target
 help:
@@ -162,9 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CPP_Solver"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... src/loader.o"
+	@echo "... src/loader.i"
+	@echo "... src/loader.s"
 .PHONY : help
 
 

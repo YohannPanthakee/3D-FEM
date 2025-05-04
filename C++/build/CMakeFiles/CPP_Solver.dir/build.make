@@ -69,32 +69,48 @@ include CMakeFiles/CPP_Solver.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CPP_Solver.dir/flags.make
 
-CMakeFiles/CPP_Solver.dir/src/main.cpp.o: CMakeFiles/CPP_Solver.dir/flags.make
-CMakeFiles/CPP_Solver.dir/src/main.cpp.o: ../src/main.cpp
-CMakeFiles/CPP_Solver.dir/src/main.cpp.o: CMakeFiles/CPP_Solver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yohann/projects/3D-FEM/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPP_Solver.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_Solver.dir/src/main.cpp.o -MF CMakeFiles/CPP_Solver.dir/src/main.cpp.o.d -o CMakeFiles/CPP_Solver.dir/src/main.cpp.o -c /home/yohann/projects/3D-FEM/C++/src/main.cpp
+CMakeFiles/CPP_Solver.dir/main.cpp.o: CMakeFiles/CPP_Solver.dir/flags.make
+CMakeFiles/CPP_Solver.dir/main.cpp.o: ../main.cpp
+CMakeFiles/CPP_Solver.dir/main.cpp.o: CMakeFiles/CPP_Solver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yohann/projects/3D-FEM/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPP_Solver.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_Solver.dir/main.cpp.o -MF CMakeFiles/CPP_Solver.dir/main.cpp.o.d -o CMakeFiles/CPP_Solver.dir/main.cpp.o -c /home/yohann/projects/3D-FEM/C++/main.cpp
 
-CMakeFiles/CPP_Solver.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP_Solver.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yohann/projects/3D-FEM/C++/src/main.cpp > CMakeFiles/CPP_Solver.dir/src/main.cpp.i
+CMakeFiles/CPP_Solver.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP_Solver.dir/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yohann/projects/3D-FEM/C++/main.cpp > CMakeFiles/CPP_Solver.dir/main.cpp.i
 
-CMakeFiles/CPP_Solver.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_Solver.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yohann/projects/3D-FEM/C++/src/main.cpp -o CMakeFiles/CPP_Solver.dir/src/main.cpp.s
+CMakeFiles/CPP_Solver.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_Solver.dir/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yohann/projects/3D-FEM/C++/main.cpp -o CMakeFiles/CPP_Solver.dir/main.cpp.s
+
+CMakeFiles/CPP_Solver.dir/src/loader.cpp.o: CMakeFiles/CPP_Solver.dir/flags.make
+CMakeFiles/CPP_Solver.dir/src/loader.cpp.o: ../src/loader.cpp
+CMakeFiles/CPP_Solver.dir/src/loader.cpp.o: CMakeFiles/CPP_Solver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yohann/projects/3D-FEM/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CPP_Solver.dir/src/loader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CPP_Solver.dir/src/loader.cpp.o -MF CMakeFiles/CPP_Solver.dir/src/loader.cpp.o.d -o CMakeFiles/CPP_Solver.dir/src/loader.cpp.o -c /home/yohann/projects/3D-FEM/C++/src/loader.cpp
+
+CMakeFiles/CPP_Solver.dir/src/loader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP_Solver.dir/src/loader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yohann/projects/3D-FEM/C++/src/loader.cpp > CMakeFiles/CPP_Solver.dir/src/loader.cpp.i
+
+CMakeFiles/CPP_Solver.dir/src/loader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_Solver.dir/src/loader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yohann/projects/3D-FEM/C++/src/loader.cpp -o CMakeFiles/CPP_Solver.dir/src/loader.cpp.s
 
 # Object files for target CPP_Solver
 CPP_Solver_OBJECTS = \
-"CMakeFiles/CPP_Solver.dir/src/main.cpp.o"
+"CMakeFiles/CPP_Solver.dir/main.cpp.o" \
+"CMakeFiles/CPP_Solver.dir/src/loader.cpp.o"
 
 # External object files for target CPP_Solver
 CPP_Solver_EXTERNAL_OBJECTS =
 
-CPP_Solver: CMakeFiles/CPP_Solver.dir/src/main.cpp.o
+CPP_Solver: CMakeFiles/CPP_Solver.dir/main.cpp.o
+CPP_Solver: CMakeFiles/CPP_Solver.dir/src/loader.cpp.o
 CPP_Solver: CMakeFiles/CPP_Solver.dir/build.make
 CPP_Solver: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 CPP_Solver: CMakeFiles/CPP_Solver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yohann/projects/3D-FEM/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CPP_Solver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yohann/projects/3D-FEM/C++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable CPP_Solver"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CPP_Solver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
