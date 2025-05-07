@@ -11,11 +11,13 @@
 
 class Mesh {
     public:
-        std::unordered_map<int, Node> nodes;
-        std::unordered_map<int, Element> elements;
-        std::unordered_map<std::string, Material> materials;
+        std::unordered_map<int, Nodes> node;
+        std::unordered_map<int, Elements> element;
+        std::unordered_map<std::string, Materials> material;
 
         void loadFromJson(const std::string& filename);
+        Nodes getNodeByID(int target_node_id);
+        Elements getElementByID(int target_element_id);
     };
 
 #endif

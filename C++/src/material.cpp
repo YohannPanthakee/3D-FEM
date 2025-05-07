@@ -1,6 +1,6 @@
 #include "material.h"
 
-Material::Material(const std::string& name, 
+Materials::Materials(const std::string& name, 
                 double E, 
                 double A)
                 

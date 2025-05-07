@@ -4,13 +4,13 @@
 
 #include <iostream>
 
-class Material {
+class Materials {
     public:
         std::string name;
         double youngs_modulus;
         double cross_sectional_area;
 
-        Material(const std::string& name, 
+        Materials(const std::string& name, 
             double E, 
             double A);
 };
