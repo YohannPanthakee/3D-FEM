@@ -28,15 +28,16 @@ int main() {
     std::cout << "Young's Modulus: " << mat.youngs_modulus << std::endl;
     std::cout << "Cross-sectional Area: " << mat.cross_sectional_area << std::endl;
 
-    const Elements& ele = mesh.element.at(elemID);
-    //std::cout << "id: " << ele.id << std::endl;
-    //std::cout << "node_ids: " << ele.node_ids[0] << std::endl;
+    Elements ele = mesh.element.at(elemID);
+    std::cout << "Element Id: " << ele.getElementID() << std::endl;
+    std::cout << "Element Start Node Pos x: " << ele.getStartPoseX() << std::endl;
+    std::cout << "Element Start Node Pos z: " << ele.getStartPoseZ() << std::endl;
     //std::cout << "length: " << ele.length << std::endl;
     //std::cout << "Angle: " << ele.angle << std::endl;
     //std::cout << "material_name: " << ele.material_name << std::endl;
 
-    //const Nodes& node = mesh.node.at(nodeID);
-    //std::cout << "id: " << node.id << std::endl;
+    const Nodes& node = mesh.node.at(nodeID);
+    std::cout << "id: " << node.id << std::endl;
 
 }   
 

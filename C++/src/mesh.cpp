@@ -15,9 +15,20 @@ void Mesh::loadFromJson(const std::string& filename) {
     
     // Nodes
     for (const auto& nodeData : data["nodes"]) {
+        Position nodePose;
+        nodePose.x = nodeData["pos"][0].get<double>();
+        nodePose.y = nodeData["pos"][1].get<double>();
+        nodePose.z = nodeData["pos"][2].get<double>();
+
+        std::cout << "Node ID: " << nodeData["id"];
+        std::cout << " NodePose - x: " << nodePose.x;
+        std::cout << " NodePose - y: " << nodePose.y;
+        std::cout << std::endl;
+
+
         Nodes nnode(
             nodeData["id"],
-            std::array<double, 3>{nodeData["pos"][0], nodeData["pos"][1], nodeData["pos"][2]},
+            nodePose,
             std::array<double, 3>{nodeData["load"][0], nodeData["load"][1], nodeData["load"][2]},
             std::array<int, 3>{nodeData["constraint"][0], nodeData["constraint"][1], nodeData["constraint"][2]}
         );
