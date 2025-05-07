@@ -18,6 +18,9 @@ class Mesh {
         void loadFromJson(const std::string& filename);
         Nodes getNodeByID(int target_node_id);
         Elements getElementByID(int target_element_id);
+        Materials getMaterialByName(std::string target_material_name);
+
+
     };
 
 #endif

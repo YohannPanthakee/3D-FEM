@@ -1,7 +1,7 @@
 #include "element.h"
 
-Elements::Elements(int id, Nodes start_node, Nodes end_node, std::string material_name)
-: id(id), start_node(start_node),end_node(end_node), material_name(material_name)
+Elements::Elements(int id, Nodes start_node, Nodes end_node, Materials material)
+: id(id), start_node(start_node),end_node(end_node), material(material)
     {
         // Calculating length and angle.
         length = std::hypot(
@@ -9,11 +9,12 @@ Elements::Elements(int id, Nodes start_node, Nodes end_node, std::string materia
             start_node.getPoseY() - end_node.getPoseY(),
             start_node.getPoseZ() - end_node.getPoseZ());
 
-        // Azimuth (angle in the XY plane from the X-axis)
         angle = std::atan2(
                 start_node.getPoseY() - end_node.getPoseY(),
-                start_node.getPoseX() - end_node.getPoseX()
-            ); // Range: -π to π
+                start_node.getPoseX() - end_node.getPoseX());
+        
+        mat_constant = (material.getMatYMOD()/material.getMatCSA())/length;
+        stress_constant = material.getMatYMOD()/length;
     }
 
 double Elements::getStartPoseX(){
@@ -53,6 +54,14 @@ int Elements::getElementID(){
     return id;
 }
 
-std::string Elements::getElementMaterial(){
-    return material_name;
-};
+double Elements::getMatConstant(){
+    return mat_constant;
+}
+
+double Elements::getMatStressConstant(){
+    return stress_constant;
+}
+
+//std::string Elements::getElementMaterial(){
+//    return material.getMatName();
+//};

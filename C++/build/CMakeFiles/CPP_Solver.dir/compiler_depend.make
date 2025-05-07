@@ -353,7 +353,236 @@ CMakeFiles/CPP_Solver.dir/main.cpp.o: ../main.cpp \
   ../lib/Json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
   ../src/node.h \
   ../src/element.h \
-  ../src/material.h
+  ../src/material.h \
+  ../lib/Eigen/Eigen/Dense \
+  ../lib/Eigen/Eigen/Core \
+  ../lib/Eigen/Eigen/src/Core/util/DisableStupidWarnings.h \
+  ../lib/Eigen/Eigen/src/Core/util/Macros.h \
+  ../lib/Eigen/Eigen/src/Core/InternalHeaderCheck.h \
+  ../lib/Eigen/Eigen/src/Core/util/ConfigureVectorization.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
+  /usr/include/c++/11/complex \
+  ../lib/Eigen/Eigen/src/Core/util/MKL_support.h \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  ../lib/Eigen/Eigen/src/Core/util/Constants.h \
+  ../lib/Eigen/Eigen/src/Core/util/Meta.h \
+  ../lib/Eigen/Eigen/src/Core/util/Assert.h \
+  ../lib/Eigen/Eigen/src/Core/util/ForwardDeclarations.h \
+  ../lib/Eigen/Eigen/src/Core/util/StaticAssert.h \
+  ../lib/Eigen/Eigen/src/Core/util/XprHelper.h \
+  ../lib/Eigen/Eigen/src/Core/util/Memory.h \
+  ../lib/Eigen/Eigen/src/Core/util/IntegralConstant.h \
+  ../lib/Eigen/Eigen/src/Core/util/Serializer.h \
+  ../lib/Eigen/Eigen/src/Core/util/SymbolicIndex.h \
+  ../lib/Eigen/Eigen/src/Core/util/EmulateArray.h \
+  ../lib/Eigen/Eigen/src/Core/util/MoreMeta.h \
+  ../lib/Eigen/Eigen/src/Core/NumTraits.h \
+  ../lib/Eigen/Eigen/src/Core/InternalHeaderCheck.h \
+  ../lib/Eigen/Eigen/src/Core/MathFunctions.h \
+  ../lib/Eigen/Eigen/src/Core/RandomImpl.h \
+  ../lib/Eigen/Eigen/src/Core/GenericPacketMath.h \
+  ../lib/Eigen/Eigen/src/Core/MathFunctionsImpl.h \
+  ../lib/Eigen/Eigen/src/Core/arch/Default/ConjHelper.h \
+  ../lib/Eigen/Eigen/src/Core/InternalHeaderCheck.h \
+  ../lib/Eigen/Eigen/src/Core/arch/Default/Half.h \
+  ../lib/Eigen/Eigen/src/Core/arch/Default/BFloat16.h \
+  ../lib/Eigen/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h \
+  ../lib/Eigen/Eigen/src/Core/arch/SSE/PacketMath.h \
+  ../lib/Eigen/Eigen/src/Core/InternalHeaderCheck.h \
+  ../lib/Eigen/Eigen/src/Core/arch/SSE/TypeCasting.h \
+  ../lib/Eigen/Eigen/src/Core/arch/SSE/MathFunctions.h \
+  ../lib/Eigen/Eigen/src/Core/arch/SSE/Complex.h \
+  ../lib/Eigen/Eigen/src/Core/arch/Default/Settings.h \
+  ../lib/Eigen/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h \
+  ../lib/Eigen/Eigen/src/Core/functors/TernaryFunctors.h \
+  ../lib/Eigen/Eigen/src/Core/InternalHeaderCheck.h \
+  ../lib/Eigen/Eigen/src/Core/functors/BinaryFunctors.h \
+  ../lib/Eigen/Eigen/src/Core/functors/UnaryFunctors.h \
+  ../lib/Eigen/Eigen/src/Core/functors/NullaryFunctors.h \
+  ../lib/Eigen/Eigen/src/Core/functors/StlFunctors.h \
+  ../lib/Eigen/Eigen/src/Core/functors/AssignmentFunctors.h \
+  ../lib/Eigen/Eigen/src/Core/util/IndexedViewHelper.h \
+  ../lib/Eigen/Eigen/src/Core/util/ReshapedHelper.h \
+  ../lib/Eigen/Eigen/src/Core/ArithmeticSequence.h \
+  ../lib/Eigen/Eigen/src/Core/IO.h \
+  ../lib/Eigen/Eigen/src/Core/DenseCoeffsBase.h \
+  ../lib/Eigen/Eigen/src/Core/DenseBase.h \
+  ../lib/Eigen/Eigen/src/plugins/CommonCwiseUnaryOps.inc \
+  ../lib/Eigen/Eigen/src/plugins/BlockMethods.inc \
+  ../lib/Eigen/Eigen/src/plugins/IndexedViewMethods.inc \
+  ../lib/Eigen/Eigen/src/plugins/ReshapedMethods.inc \
+  ../lib/Eigen/Eigen/src/plugins/ReshapedMethods.inc \
+  ../lib/Eigen/Eigen/src/Core/MatrixBase.h \
+  ../lib/Eigen/Eigen/src/plugins/CommonCwiseBinaryOps.inc \
+  ../lib/Eigen/Eigen/src/plugins/MatrixCwiseUnaryOps.inc \
+  ../lib/Eigen/Eigen/src/plugins/MatrixCwiseBinaryOps.inc \
+  ../lib/Eigen/Eigen/src/Core/EigenBase.h \
+  ../lib/Eigen/Eigen/src/Core/Product.h \
+  ../lib/Eigen/Eigen/src/Core/CoreEvaluators.h \
+  ../lib/Eigen/Eigen/src/Core/AssignEvaluator.h \
+  ../lib/Eigen/Eigen/src/Core/Assign.h \
+  ../lib/Eigen/Eigen/src/Core/ArrayBase.h \
+  ../lib/Eigen/Eigen/src/plugins/ArrayCwiseUnaryOps.inc \
+  ../lib/Eigen/Eigen/src/plugins/ArrayCwiseBinaryOps.inc \
+  ../lib/Eigen/Eigen/src/Core/util/BlasUtil.h \
+  ../lib/Eigen/Eigen/src/Core/DenseStorage.h \
+  ../lib/Eigen/Eigen/src/Core/NestByValue.h \
+  ../lib/Eigen/Eigen/src/Core/ReturnByValue.h \
+  ../lib/Eigen/Eigen/src/Core/NoAlias.h \
+  ../lib/Eigen/Eigen/src/Core/PlainObjectBase.h \
+  ../lib/Eigen/Eigen/src/Core/Matrix.h \
+  ../lib/Eigen/Eigen/src/Core/Array.h \
+  ../lib/Eigen/Eigen/src/Core/Fill.h \
+  ../lib/Eigen/Eigen/src/Core/CwiseTernaryOp.h \
+  ../lib/Eigen/Eigen/src/Core/CwiseBinaryOp.h \
+  ../lib/Eigen/Eigen/src/Core/CwiseUnaryOp.h \
+  ../lib/Eigen/Eigen/src/Core/CwiseNullaryOp.h \
+  ../lib/Eigen/Eigen/src/Core/CwiseUnaryView.h \
+  ../lib/Eigen/Eigen/src/Core/SelfCwiseBinaryOp.h \
+  ../lib/Eigen/Eigen/src/Core/InnerProduct.h \
+  ../lib/Eigen/Eigen/src/Core/Dot.h \
+  ../lib/Eigen/Eigen/src/Core/StableNorm.h \
+  ../lib/Eigen/Eigen/src/Core/Stride.h \
+  ../lib/Eigen/Eigen/src/Core/MapBase.h \
+  ../lib/Eigen/Eigen/src/Core/Map.h \
+  ../lib/Eigen/Eigen/src/Core/Ref.h \
+  ../lib/Eigen/Eigen/src/Core/Block.h \
+  ../lib/Eigen/Eigen/src/Core/VectorBlock.h \
+  ../lib/Eigen/Eigen/src/Core/IndexedView.h \
+  ../lib/Eigen/Eigen/src/Core/Reshaped.h \
+  ../lib/Eigen/Eigen/src/Core/Transpose.h \
+  ../lib/Eigen/Eigen/src/Core/DiagonalMatrix.h \
+  ../lib/Eigen/Eigen/src/Core/Diagonal.h \
+  ../lib/Eigen/Eigen/src/Core/DiagonalProduct.h \
+  ../lib/Eigen/Eigen/src/Core/SkewSymmetricMatrix3.h \
+  ../lib/Eigen/Eigen/src/Core/Redux.h \
+  ../lib/Eigen/Eigen/src/Core/Visitor.h \
+  ../lib/Eigen/Eigen/src/Core/Fuzzy.h \
+  ../lib/Eigen/Eigen/src/Core/Swap.h \
+  ../lib/Eigen/Eigen/src/Core/CommaInitializer.h \
+  ../lib/Eigen/Eigen/src/Core/GeneralProduct.h \
+  ../lib/Eigen/Eigen/src/Core/Solve.h \
+  ../lib/Eigen/Eigen/src/Core/Inverse.h \
+  ../lib/Eigen/Eigen/src/Core/SolverBase.h \
+  ../lib/Eigen/Eigen/src/Core/PermutationMatrix.h \
+  ../lib/Eigen/Eigen/src/Core/Transpositions.h \
+  ../lib/Eigen/Eigen/src/Core/TriangularMatrix.h \
+  ../lib/Eigen/Eigen/src/Core/SelfAdjointView.h \
+  ../lib/Eigen/Eigen/src/Core/products/GeneralBlockPanelKernel.h \
+  ../lib/Eigen/Eigen/src/Core/InternalHeaderCheck.h \
+  ../lib/Eigen/Eigen/src/Core/DeviceWrapper.h \
+  ../lib/Eigen/Eigen/src/Core/products/Parallelizer.h \
+  ../lib/Eigen/Eigen/src/Core/ProductEvaluators.h \
+  ../lib/Eigen/Eigen/src/Core/products/GeneralMatrixVector.h \
+  ../lib/Eigen/Eigen/src/Core/products/GeneralMatrixMatrix.h \
+  ../lib/Eigen/Eigen/src/Core/SolveTriangular.h \
+  ../lib/Eigen/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h \
+  ../lib/Eigen/Eigen/src/Core/products/SelfadjointMatrixVector.h \
+  ../lib/Eigen/Eigen/src/Core/products/SelfadjointMatrixMatrix.h \
+  ../lib/Eigen/Eigen/src/Core/products/SelfadjointProduct.h \
+  ../lib/Eigen/Eigen/src/Core/products/SelfadjointRank2Update.h \
+  ../lib/Eigen/Eigen/src/Core/products/TriangularMatrixVector.h \
+  ../lib/Eigen/Eigen/src/Core/products/TriangularMatrixMatrix.h \
+  ../lib/Eigen/Eigen/src/Core/products/TriangularSolverMatrix.h \
+  ../lib/Eigen/Eigen/src/Core/products/TriangularSolverVector.h \
+  ../lib/Eigen/Eigen/src/Core/BandMatrix.h \
+  ../lib/Eigen/Eigen/src/Core/CoreIterators.h \
+  ../lib/Eigen/Eigen/src/Core/ConditionEstimator.h \
+  ../lib/Eigen/Eigen/src/Core/Select.h \
+  ../lib/Eigen/Eigen/src/Core/VectorwiseOp.h \
+  ../lib/Eigen/Eigen/src/Core/PartialReduxEvaluator.h \
+  ../lib/Eigen/Eigen/src/Core/Random.h \
+  ../lib/Eigen/Eigen/src/Core/Replicate.h \
+  ../lib/Eigen/Eigen/src/Core/Reverse.h \
+  ../lib/Eigen/Eigen/src/Core/ArrayWrapper.h \
+  ../lib/Eigen/Eigen/src/Core/StlIterators.h \
+  ../lib/Eigen/Eigen/src/Core/GlobalFunctions.h \
+  ../lib/Eigen/Eigen/src/Core/util/ReenableStupidWarnings.h \
+  ../lib/Eigen/Eigen/LU \
+  ../lib/Eigen/Eigen/src/misc/Kernel.h \
+  ../lib/Eigen/Eigen/src/misc/InternalHeaderCheck.h \
+  ../lib/Eigen/Eigen/src/misc/Image.h \
+  ../lib/Eigen/Eigen/src/LU/FullPivLU.h \
+  ../lib/Eigen/Eigen/src/LU/InternalHeaderCheck.h \
+  ../lib/Eigen/Eigen/src/LU/PartialPivLU.h \
+  ../lib/Eigen/Eigen/src/LU/Determinant.h \
+  ../lib/Eigen/Eigen/src/LU/InverseImpl.h \
+  ../lib/Eigen/Eigen/src/LU/arch/InverseSize4.h \
+  ../lib/Eigen/Eigen/src/LU/InternalHeaderCheck.h \
+  ../lib/Eigen/Eigen/Cholesky \
+  ../lib/Eigen/Eigen/Jacobi \
+  ../lib/Eigen/Eigen/src/Jacobi/Jacobi.h \
+  ../lib/Eigen/Eigen/src/Jacobi/InternalHeaderCheck.h \
+  ../lib/Eigen/Eigen/src/Cholesky/LLT.h \
+  ../lib/Eigen/Eigen/src/Cholesky/InternalHeaderCheck.h \
+  ../lib/Eigen/Eigen/src/Cholesky/LDLT.h \
+  ../lib/Eigen/Eigen/QR \
+  ../lib/Eigen/Eigen/Householder \
+  ../lib/Eigen/Eigen/src/Householder/Householder.h \
+  ../lib/Eigen/Eigen/src/Householder/InternalHeaderCheck.h \
+  ../lib/Eigen/Eigen/src/Householder/HouseholderSequence.h \
+  ../lib/Eigen/Eigen/src/Householder/BlockHouseholder.h \
+  ../lib/Eigen/Eigen/src/QR/HouseholderQR.h \
+  ../lib/Eigen/Eigen/src/QR/InternalHeaderCheck.h \
+  ../lib/Eigen/Eigen/src/QR/FullPivHouseholderQR.h \
+  ../lib/Eigen/Eigen/src/QR/ColPivHouseholderQR.h \
+  ../lib/Eigen/Eigen/src/QR/CompleteOrthogonalDecomposition.h \
+  ../lib/Eigen/Eigen/SVD \
+  ../lib/Eigen/Eigen/src/misc/RealSvd2x2.h \
+  ../lib/Eigen/Eigen/src/SVD/UpperBidiagonalization.h \
+  ../lib/Eigen/Eigen/src/SVD/InternalHeaderCheck.h \
+  ../lib/Eigen/Eigen/src/SVD/SVDBase.h \
+  ../lib/Eigen/Eigen/src/SVD/JacobiSVD.h \
+  ../lib/Eigen/Eigen/src/SVD/BDCSVD.h \
+  ../lib/Eigen/Eigen/Geometry \
+  ../lib/Eigen/Eigen/src/Geometry/OrthoMethods.h \
+  ../lib/Eigen/Eigen/src/Geometry/InternalHeaderCheck.h \
+  ../lib/Eigen/Eigen/src/Geometry/EulerAngles.h \
+  ../lib/Eigen/Eigen/src/Geometry/Homogeneous.h \
+  ../lib/Eigen/Eigen/src/Geometry/RotationBase.h \
+  ../lib/Eigen/Eigen/src/Geometry/Rotation2D.h \
+  ../lib/Eigen/Eigen/src/Geometry/Quaternion.h \
+  ../lib/Eigen/Eigen/src/Geometry/AngleAxis.h \
+  ../lib/Eigen/Eigen/src/Geometry/Transform.h \
+  ../lib/Eigen/Eigen/src/Geometry/Translation.h \
+  ../lib/Eigen/Eigen/src/Geometry/Scaling.h \
+  ../lib/Eigen/Eigen/src/Geometry/Hyperplane.h \
+  ../lib/Eigen/Eigen/src/Geometry/ParametrizedLine.h \
+  ../lib/Eigen/Eigen/src/Geometry/AlignedBox.h \
+  ../lib/Eigen/Eigen/src/Geometry/Umeyama.h \
+  ../lib/Eigen/Eigen/src/Geometry/arch/Geometry_SIMD.h \
+  ../lib/Eigen/Eigen/src/Geometry/InternalHeaderCheck.h \
+  ../lib/Eigen/Eigen/Eigenvalues \
+  ../lib/Eigen/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  ../lib/Eigen/Eigen/src/Eigenvalues/InternalHeaderCheck.h \
+  ../lib/Eigen/Eigen/src/Eigenvalues/RealSchur.h \
+  ../lib/Eigen/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  ../lib/Eigen/Eigen/src/Eigenvalues/InternalHeaderCheck.h \
+  ../lib/Eigen/Eigen/src/Eigenvalues/EigenSolver.h \
+  ../lib/Eigen/Eigen/src/Eigenvalues/RealSchur.h \
+  ../lib/Eigen/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
+  ../lib/Eigen/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  ../lib/Eigen/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h \
+  ../lib/Eigen/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  ../lib/Eigen/Eigen/src/Eigenvalues/ComplexSchur.h \
+  ../lib/Eigen/Eigen/src/Eigenvalues/ComplexEigenSolver.h \
+  ../lib/Eigen/Eigen/src/Eigenvalues/ComplexSchur.h \
+  ../lib/Eigen/Eigen/src/Eigenvalues/RealQZ.h \
+  ../lib/Eigen/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
+  ../lib/Eigen/Eigen/src/Eigenvalues/RealQZ.h \
+  ../lib/Eigen/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
 
 CMakeFiles/CPP_Solver.dir/src/element.cpp.o: ../src/element.cpp \
   /usr/include/stdc-predef.h \
@@ -564,7 +793,8 @@ CMakeFiles/CPP_Solver.dir/src/element.cpp.o: ../src/element.cpp \
   /usr/include/c++/11/tr1/poly_hermite.tcc \
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
   /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  ../src/node.h
+  ../src/node.h \
+  ../src/material.h
 
 CMakeFiles/CPP_Solver.dir/src/material.cpp.o: ../src/material.cpp \
   /usr/include/stdc-predef.h \
@@ -1146,8 +1376,6 @@ CMakeFiles/CPP_Solver.dir/src/node.cpp.o: ../src/node.cpp \
 
 ../src/node.cpp:
 
-/usr/include/c++/11/bits/fstream.tcc:
-
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
@@ -1156,712 +1384,1144 @@ CMakeFiles/CPP_Solver.dir/src/node.cpp.o: ../src/node.cpp \
 
 ../src/element.cpp:
 
-../src/element.h:
+../lib/Eigen/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
 
-../lib/Json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp:
+../lib/Eigen/Eigen/src/Eigenvalues/RealQZ.h:
 
-../lib/Json/include/nlohmann/detail/conversions/to_chars.hpp:
+../lib/Eigen/Eigen/src/Eigenvalues/ComplexEigenSolver.h:
 
-../lib/Json/include/nlohmann/detail/output/output_adapters.hpp:
+../lib/Eigen/Eigen/src/Eigenvalues/ComplexSchur.h:
 
-../lib/Json/include/nlohmann/detail/output/binary_writer.hpp:
+../lib/Eigen/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h:
 
-../lib/Json/include/nlohmann/detail/json_pointer.hpp:
+../lib/Eigen/Eigen/src/Eigenvalues/InternalHeaderCheck.h:
 
-../lib/Json/include/nlohmann/detail/json_custom_base_class.hpp:
+../lib/Eigen/Eigen/src/Eigenvalues/Tridiagonalization.h:
 
-../lib/Json/include/nlohmann/detail/iterators/primitive_iterator.hpp:
+../lib/Eigen/Eigen/Eigenvalues:
 
-../lib/Json/include/nlohmann/detail/iterators/internal_iterator.hpp:
+../lib/Eigen/Eigen/src/Geometry/arch/Geometry_SIMD.h:
 
-../lib/Json/include/nlohmann/detail/meta/is_sax.hpp:
+../lib/Eigen/Eigen/src/Geometry/Umeyama.h:
 
-../lib/Json/include/nlohmann/detail/input/lexer.hpp:
+../lib/Eigen/Eigen/src/Geometry/AlignedBox.h:
 
-../lib/Json/include/nlohmann/detail/input/json_sax.hpp:
+../lib/Eigen/Eigen/src/Geometry/Hyperplane.h:
 
-/usr/include/c++/11/bits/stl_numeric.h:
+../lib/Eigen/Eigen/src/Geometry/Scaling.h:
 
-/usr/include/c++/11/numeric:
+../lib/Eigen/Eigen/src/Geometry/Homogeneous.h:
 
-../lib/Json/include/nlohmann/detail/input/input_adapters.hpp:
+../lib/Eigen/Eigen/src/Geometry/EulerAngles.h:
 
-../lib/Json/include/nlohmann/detail/input/binary_reader.hpp:
-
-../lib/Json/include/nlohmann/byte_container_with_subtype.hpp:
-
-../lib/Json/include/nlohmann/detail/conversions/to_json.hpp:
-
-/usr/include/c++/11/optional:
-
-/usr/include/c++/11/bits/fs_ops.h:
-
-/usr/include/c++/11/bits/fs_dir.h:
-
-/usr/include/c++/11/sstream:
-
-/usr/include/c++/11/bits/quoted_string.h:
-
-/usr/include/c++/11/bits/locale_conv.h:
-
-/usr/include/c++/11/bits/locale_facets_nonio.tcc:
-
-/usr/include/libintl.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
-
-/usr/include/c++/11/bits/locale_facets_nonio.h:
-
-/usr/include/c++/11/bits/parse_numbers.h:
-
-/usr/include/c++/11/ratio:
-
-/usr/include/c++/11/filesystem:
-
-../lib/Json/include/nlohmann/detail/meta/identity_tag.hpp:
-
-/usr/include/strings.h:
-
-/usr/include/c++/11/fstream:
-
-../lib/Json/include/nlohmann/detail/string_concat.hpp:
-
-../lib/Json/include/nlohmann/json_fwd.hpp:
-
-../lib/Json/include/nlohmann/detail/meta/call_std/end.hpp:
-
-/usr/include/c++/11/ctime:
-
-../lib/Json/include/nlohmann/detail/iterators/iterator_traits.hpp:
-
-../lib/Json/include/nlohmann/detail/meta/cpp_future.hpp:
-
-../lib/Json/include/nlohmann/detail/string_escape.hpp:
-
-../lib/Json/include/nlohmann/detail/output/serializer.hpp:
-
-/usr/include/assert.h:
-
-/usr/include/c++/11/cassert:
-
-/usr/include/c++/11/version:
-
-../lib/Json/include/nlohmann/thirdparty/hedley/hedley.hpp:
-
-../lib/Json/include/nlohmann/detail/meta/detected.hpp:
-
-../lib/Json/include/nlohmann/detail/macro_scope.hpp:
-
-../src/material.h:
-
-../lib/Json/include/nlohmann/detail/exceptions.hpp:
-
-/usr/include/c++/11/bits/indirect_array.h:
-
-/usr/include/c++/11/bits/mask_array.h:
-
-/usr/include/c++/11/bits/gslice_array.h:
-
-/usr/include/c++/11/bits/gslice.h:
-
-/usr/include/c++/11/bits/valarray_after.h:
-
-/usr/include/c++/11/bits/slice_array.h:
-
-/usr/include/c++/11/bits/valarray_before.h:
-
-/usr/include/c++/11/bits/valarray_array.h:
-
-/usr/include/c++/11/tr1/riemann_zeta.tcc:
-
-/usr/include/c++/11/tr1/poly_laguerre.tcc:
-
-/usr/include/c++/11/tr1/poly_hermite.tcc:
-
-/usr/include/c++/11/tr1/modified_bessel_func.tcc:
-
-/usr/include/c++/11/tr1/hypergeometric.tcc:
-
-/usr/include/c++/11/tr1/exp_integral.tcc:
-
-/usr/include/c++/11/tr1/ell_integral.tcc:
-
-/usr/include/c++/11/bits/locale_classes.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
-/usr/include/c++/11/ext/atomicity.h:
-
-/usr/include/c++/11/bits/stl_pair.h:
-
-/usr/include/pthread.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
-
-/usr/include/c++/11/ext/concurrence.h:
-
-/usr/include/c++/11/bits/ios_base.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
-/usr/include/locale.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/usr/include/c++/11/bits/unordered_map.h:
-
-/usr/include/c++/11/clocale:
-
-/usr/include/c++/11/bits/ostream.tcc:
-
-/usr/include/c++/11/bits/sstream.tcc:
-
-/usr/include/c++/11/new:
-
-/usr/include/c++/11/ext/type_traits.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
-
-/usr/include/c++/11/bits/stl_algobase.h:
-
-/usr/include/c++/11/cwchar:
-
-/usr/include/c++/11/pstl/pstl_config.h:
-
-/usr/include/c++/11/bits/char_traits.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-/usr/include/c++/11/type_traits:
-
-../src/node.h:
-
-/usr/include/c++/11/tuple:
-
-/usr/include/c++/11/bits/stl_tree.h:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/usr/include/c++/11/bits/move.h:
-
-/usr/include/c++/11/bits/hash_bytes.h:
-
-/usr/include/c++/11/bits/string_view.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-
-/usr/include/c++/11/bits/cxxabi_init_exception.h:
-
-/usr/include/wchar.h:
-
-../lib/Json/include/nlohmann/detail/iterators/iter_impl.hpp:
-
-../lib/Json/include/nlohmann/detail/meta/call_std/begin.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
-
-/usr/include/c++/11/bits/exception_ptr.h:
-
-/usr/include/c++/11/ext/string_conversions.h:
-
-/usr/include/c++/11/exception:
-
-/usr/include/c++/11/bits/stringfwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
-/usr/include/c++/11/typeinfo:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/c++/11/debug/assertions.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
-
-../lib/Json/include/nlohmann/detail/meta/void_t.hpp:
-
-/usr/include/c++/11/bits/nested_exception.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/usr/include/c++/11/bits/invoke.h:
-
-/usr/include/c++/11/cstdint:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/usr/include/c++/11/tr1/special_function_util.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
-
-/usr/include/c++/11/bits/functexcept.h:
-
-/usr/include/c++/11/bits/concept_check.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/c++/11/streambuf:
-
-/usr/include/c++/11/bits/predefined_ops.h:
-
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/include/c++/11/bits/localefwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
-/usr/include/stdlib.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
-
-/usr/include/time.h:
-
-/usr/include/c++/11/valarray:
-
-/usr/include/c++/11/bits/exception_defines.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
-
-../lib/Json/include/nlohmann/detail/input/parser.hpp:
-
-/usr/include/c++/11/tr1/gamma.tcc:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/include/c++/11/locale:
-
-/usr/include/ctype.h:
-
-/usr/include/c++/11/bits/stream_iterator.h:
-
-/usr/include/c++/11/bits/cpp_type_traits.h:
-
-/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/c++/11/bits/fs_path.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-../lib/Json/include/nlohmann/detail/iterators/iteration_proxy.hpp:
-
-/usr/include/c++/11/ext/numeric_traits.h:
-
-/usr/include/c++/11/bits/atomic_base.h:
-
-/usr/include/features.h:
-
-../lib/Json/include/nlohmann/detail/meta/type_traits.hpp:
-
-../main.cpp:
-
-/usr/include/c++/11/bits/stl_multimap.h:
-
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/c++/11/backward/binders.h:
-
-/usr/include/c++/11/algorithm:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/c++/11/stdlib.h:
-
-../lib/Json/include/nlohmann/json.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/c++/11/functional:
-
-/usr/include/linux/errno.h:
-
-/usr/include/c++/11/debug/debug.h:
-
-/usr/include/features-time64.h:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
-
-../lib/Json/include/nlohmann/detail/macro_unscope.hpp:
-
-/usr/include/alloca.h:
-
-/usr/include/c++/11/bits/std_function.h:
-
-/usr/include/c++/11/bits/stl_tempbuf.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-../lib/Json/include/nlohmann/ordered_map.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
-/usr/include/c++/11/ext/aligned_buffer.h:
-
-../lib/Json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-/usr/include/c++/11/cstdlib:
-
-/usr/include/c++/11/bits/stl_iterator_base_types.h:
-
-/usr/include/c++/11/bit:
-
-/usr/include/c++/11/bits/stl_iterator.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/c++/11/pstl/glue_memory_defs.h:
-
-/usr/include/c++/11/forward_list:
-
-/usr/include/c++/11/iomanip:
-
-/usr/include/c++/11/cctype:
-
-/usr/include/c++/11/unordered_map:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
-../lib/Json/include/nlohmann/detail/json_ref.hpp:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/c++/11/bits/shared_ptr_base.h:
-
-/usr/include/c++/11/bits/basic_string.h:
-
-/usr/include/c++/11/pstl/glue_numeric_defs.h:
-
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
-
-../lib/Json/include/nlohmann/detail/conversions/from_json.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-../lib/Json/include/nlohmann/detail/string_utils.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
-
-../lib/Json/include/nlohmann/detail/value_t.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/c++/11/bits/allocated_ptr.h:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/include/c++/11/ext/new_allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/include/c++/11/tr1/legendre_function.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
-
-/usr/include/c++/11/ostream:
-
-/usr/include/c++/11/any:
-
-/usr/include/c++/11/bits/unique_ptr.h:
-
-/usr/include/c++/11/string:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
-
-/usr/include/c++/11/bits/allocator.h:
-
-/usr/include/c++/11/cmath:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
-/usr/include/c++/11/bits/ostream_insert.h:
-
-/usr/include/c++/11/bits/cxxabi_forced.h:
-
-/usr/include/x86_64-linux-gnu/bits/sched.h:
-
-/usr/include/c++/11/ext/alloc_traits.h:
-
-/usr/include/c++/11/bits/memoryfwd.h:
-
-/usr/include/c++/11/bits/stl_function.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/usr/include/c++/11/iterator:
-
-/usr/include/c++/11/bits/range_access.h:
-
-/usr/include/c++/11/map:
-
-/usr/include/c++/11/iosfwd:
-
-/usr/include/c++/11/initializer_list:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/c++/11/bits/alloc_traits.h:
-
-/usr/include/c++/11/bits/shared_ptr.h:
-
-/usr/include/c++/11/bits/stl_construct.h:
-
-/usr/include/c++/11/bits/functional_hash.h:
-
-/usr/include/c++/11/cstdio:
-
-/usr/include/stdio.h:
-
-../lib/Json/include/nlohmann/detail/abi_macros.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
-
-/usr/include/c++/11/cerrno:
-
-/usr/include/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/usr/include/sched.h:
-
-/usr/include/wctype.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
-
-/usr/include/c++/11/bits/charconv.h:
-
-/usr/include/c++/11/bits/basic_string.tcc:
-
-/usr/include/c++/11/bits/locale_classes.tcc:
-
-/usr/include/c++/11/bits/node_handle.h:
-
-/usr/include/c++/11/iostream:
-
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
-/usr/include/c++/11/system_error:
-
-/usr/include/c++/11/cstddef:
-
-/usr/include/c++/11/bits/stl_vector.h:
-
-/usr/include/c++/11/ios:
-
-/usr/include/c++/11/utility:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
-
-/usr/include/c++/11/pstl/glue_algorithm_defs.h:
-
-/usr/include/c++/11/stdexcept:
-
-../lib/Json/include/nlohmann/detail/hash.hpp:
-
-/usr/include/c++/11/codecvt:
-
-/usr/include/string.h:
-
-/usr/include/c++/11/bits/streambuf.tcc:
-
-/usr/include/c++/11/bits/valarray_array.tcc:
-
-/usr/include/c++/11/bits/atomic_lockfree_defines.h:
-
-/usr/include/c++/11/tr1/bessel_function.tcc:
-
-/usr/include/c++/11/bits/uniform_int_dist.h:
-
-/usr/include/c++/11/bits/basic_ios.h:
-
-/usr/include/c++/11/bits/exception.h:
-
-/usr/include/c++/11/bits/locale_facets.h:
-
-/usr/include/c++/11/cwctype:
-
-../lib/Json/include/nlohmann/detail/input/position_t.hpp:
-
-/usr/include/c++/11/bits/streambuf_iterator.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/c++/11/bits/locale_facets.tcc:
-
-/usr/include/c++/11/istream:
-
-/usr/include/c++/11/bits/istream.tcc:
-
-../src/mesh.h:
-
-/usr/include/c++/11/bits/stl_relops.h:
-
-/usr/include/c++/11/bits/stl_algo.h:
-
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
-/usr/include/c++/11/pstl/execution_defs.h:
-
-/usr/include/c++/11/bits/algorithmfwd.h:
-
-/usr/include/c++/11/chrono:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/c++/11/bits/forward_list.tcc:
-
-../lib/Json/include/nlohmann/adl_serializer.hpp:
-
-/usr/include/c++/11/bits/std_abs.h:
-
-/usr/include/c++/11/bits/stl_heap.h:
-
-/usr/include/c++/11/tr1/beta_function.tcc:
-
-/usr/include/c++/11/array:
-
-/usr/include/c++/11/bits/uses_allocator.h:
-
-/usr/include/c++/11/bits/refwrap.h:
-
-/usr/include/c++/11/bits/hashtable.h:
-
-/usr/include/c++/11/bits/hashtable_policy.h:
-
-/usr/include/c++/11/bits/codecvt.h:
-
-/usr/include/c++/11/bits/basic_ios.tcc:
-
-/usr/include/c++/11/bits/enable_special_members.h:
-
-../src/mesh.cpp:
-
-/usr/include/c++/11/bits/ptr_traits.h:
-
-/usr/include/stdint.h:
-
-/usr/include/endian.h:
-
-/usr/include/c++/11/bits/erase_if.h:
-
-/usr/include/c++/11/vector:
-
-/usr/include/c++/11/bits/align.h:
-
-/usr/include/c++/11/bits/stl_uninitialized.h:
-
-/usr/include/c++/11/backward/auto_ptr.h:
-
-/usr/include/c++/11/bits/fs_fwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/c++/11/bits/stl_bvector.h:
-
-/usr/include/c++/11/bits/vector.tcc:
-
-/usr/include/c++/11/memory:
-
-/usr/include/c++/11/bits/stl_raw_storage_iter.h:
-
-/usr/include/c++/11/bits/shared_ptr_atomic.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
-
-/usr/include/c++/11/bits/forward_list.h:
-
-/usr/include/c++/11/bits/stl_map.h:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/usr/include/c++/11/cstring:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/usr/include/math.h:
-
-../lib/Json/include/nlohmann/detail/meta/std_fs.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
-
-/usr/include/c++/11/string_view:
-
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
-
-/usr/include/c++/11/bits/postypes.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+/usr/include/c++/11/limits:
 
 /usr/include/c++/11/bits/specfun.h:
 
-/usr/include/c++/11/limits:
+/usr/include/c++/11/bits/postypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/include/c++/11/string_view:
+
+../lib/Json/include/nlohmann/detail/meta/std_fs.hpp:
+
+/usr/include/c++/11/cstring:
+
+/usr/include/c++/11/bits/stl_map.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
+
+/usr/include/c++/11/memory:
+
+../lib/Eigen/Eigen/src/Core/RandomImpl.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/c++/11/bits/fs_fwd.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/c++/11/backward/auto_ptr.h:
+
+../lib/Eigen/Eigen/src/Core/StableNorm.h:
+
+../lib/Eigen/Eigen/src/LU/FullPivLU.h:
+
+/usr/include/c++/11/bits/stl_uninitialized.h:
+
+/usr/include/c++/11/bits/align.h:
+
+../lib/Eigen/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h:
+
+/usr/include/c++/11/vector:
+
+/usr/include/c++/11/bits/erase_if.h:
+
+/usr/include/stdint.h:
+
+/usr/include/c++/11/bits/ptr_traits.h:
+
+/usr/include/c++/11/bits/enable_special_members.h:
+
+/usr/include/c++/11/bits/basic_ios.tcc:
+
+/usr/include/c++/11/bits/codecvt.h:
+
+/usr/include/c++/11/bits/hashtable_policy.h:
+
+/usr/include/c++/11/bits/refwrap.h:
+
+/usr/include/c++/11/bits/uses_allocator.h:
+
+/usr/include/c++/11/tr1/beta_function.tcc:
+
+/usr/include/c++/11/bits/stl_heap.h:
+
+/usr/include/c++/11/bits/std_abs.h:
+
+../lib/Json/include/nlohmann/adl_serializer.hpp:
+
+../lib/Eigen/Eigen/src/Jacobi/InternalHeaderCheck.h:
+
+/usr/include/c++/11/bits/forward_list.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/c++/11/chrono:
+
+/usr/include/c++/11/pstl/execution_defs.h:
+
+../lib/Eigen/Eigen/src/Eigenvalues/EigenSolver.h:
+
+../lib/Eigen/Eigen/src/Core/util/Assert.h:
+
+../lib/Eigen/Eigen/src/Core/Matrix.h:
+
+../lib/Eigen/Eigen/src/Geometry/Translation.h:
+
+../src/mesh.h:
+
+/usr/include/c++/11/bits/istream.tcc:
+
+/usr/include/c++/11/bits/locale_facets.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
+
+../lib/Eigen/Eigen/src/Core/DenseCoeffsBase.h:
+
+../lib/Eigen/Eigen/Householder:
+
+../lib/Json/include/nlohmann/detail/input/position_t.hpp:
+
+/usr/include/c++/11/cwctype:
+
+/usr/include/c++/11/bits/locale_facets.h:
+
+/usr/include/c++/11/tr1/bessel_function.tcc:
+
+/usr/include/c++/11/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/11/bits/valarray_array.tcc:
+
+/usr/include/string.h:
+
+../lib/Json/include/nlohmann/detail/hash.hpp:
+
+/usr/include/c++/11/stdexcept:
+
+../src/mesh.cpp:
+
+/usr/include/c++/11/pstl/glue_algorithm_defs.h:
+
+../lib/Eigen/Eigen/src/Core/util/Serializer.h:
+
+/usr/include/c++/11/ios:
+
+/usr/include/c++/11/bits/stl_vector.h:
+
+/usr/include/c++/11/cstddef:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/c++/11/bits/node_handle.h:
+
+/usr/include/c++/11/bits/basic_string.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+../lib/Eigen/Eigen/QR:
+
+/usr/include/wctype.h:
+
+/usr/include/sched.h:
+
+/usr/include/c++/11/cerrno:
+
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/usr/include/stdio.h:
+
+../lib/Eigen/Eigen/src/Core/DiagonalMatrix.h:
+
+../lib/Eigen/Eigen/src/Geometry/Rotation2D.h:
+
+/usr/include/c++/11/cstdio:
+
+/usr/include/c++/11/bits/functional_hash.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
+
+/usr/include/c++/11/bits/stl_construct.h:
+
+/usr/include/c++/11/bits/shared_ptr.h:
+
+../lib/Eigen/Eigen/src/Core/Product.h:
+
+/usr/include/errno.h:
+
+/usr/include/c++/11/bits/alloc_traits.h:
+
+/usr/include/stdc-predef.h:
+
+../lib/Eigen/Eigen/src/Core/Redux.h:
+
+/usr/include/c++/11/iosfwd:
+
+/usr/include/c++/11/map:
+
+/usr/include/c++/11/iterator:
+
+/usr/include/c++/11/bits/stl_function.h:
+
+/usr/include/c++/11/ext/alloc_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/usr/include/c++/11/bits/algorithmfwd.h:
+
+/usr/include/c++/11/bits/cxxabi_forced.h:
+
+/usr/include/c++/11/bits/ostream_insert.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/usr/include/c++/11/cmath:
+
+/usr/include/c++/11/bits/allocator.h:
+
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
+/usr/include/c++/11/bits/unique_ptr.h:
+
+/usr/include/c++/11/any:
+
+/usr/include/c++/11/ostream:
+
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/c++/11/tr1/legendre_function.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+../lib/Eigen/Eigen/src/Core/ProductEvaluators.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+../lib/Eigen/Eigen/src/Core/util/XprHelper.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+../lib/Json/include/nlohmann/detail/conversions/from_json.hpp:
+
+/usr/include/c++/11/pstl/glue_numeric_defs.h:
+
+/usr/include/c++/11/bits/basic_string.h:
+
+/usr/include/c++/11/bits/shared_ptr_base.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+../lib/Json/include/nlohmann/detail/json_ref.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/c++/11/unordered_map:
+
+/usr/include/c++/11/cctype:
+
+/usr/include/c++/11/iomanip:
+
+/usr/include/c++/11/forward_list:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+../lib/Eigen/Eigen/src/Geometry/AngleAxis.h:
+
+/usr/include/c++/11/bits/stl_iterator_base_types.h:
+
+../lib/Eigen/Eigen/src/Core/util/Memory.h:
+
+../lib/Eigen/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h:
+
+/usr/include/c++/11/cstdlib:
+
+../lib/Eigen/Eigen/src/plugins/BlockMethods.inc:
+
+../lib/Json/include/nlohmann/detail/iterators/json_reverse_iterator.hpp:
+
+../lib/Eigen/Eigen/src/Core/util/BlasUtil.h:
+
+../lib/Eigen/Eigen/src/Core/arch/SSE/PacketMath.h:
+
+/usr/include/c++/11/bits/memoryfwd.h:
+
+../lib/Eigen/Eigen/src/SVD/InternalHeaderCheck.h:
+
+/usr/include/c++/11/bits/locale_classes.tcc:
+
+/usr/include/c++/11/ext/aligned_buffer.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+../lib/Eigen/Eigen/src/Core/Inverse.h:
+
+../lib/Json/include/nlohmann/ordered_map.hpp:
+
+../lib/Eigen/Eigen/src/Core/Visitor.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+../lib/Eigen/Eigen/src/Core/products/GeneralBlockPanelKernel.h:
+
+/usr/include/c++/11/bits/stl_tempbuf.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/c++/11/bits/std_function.h:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/include/c++/11/complex:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+../lib/Eigen/Eigen/src/Jacobi/Jacobi.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
+
+/usr/include/c++/11/functional:
+
+../lib/Json/include/nlohmann/detail/string_utils.hpp:
+
+../lib/Eigen/Eigen/src/Core/arch/SSE/MathFunctions.h:
+
+/usr/include/c++/11/bits/range_access.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+../lib/Json/include/nlohmann/json.hpp:
+
+/usr/include/c++/11/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+../lib/Eigen/Eigen/src/Core/Swap.h:
+
+/usr/include/c++/11/backward/binders.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/c++/11/bits/stl_multimap.h:
+
+../lib/Eigen/Eigen/src/Core/EigenBase.h:
+
+../main.cpp:
+
+../lib/Eigen/Eigen/src/Geometry/ParametrizedLine.h:
+
+../lib/Json/include/nlohmann/detail/meta/type_traits.hpp:
+
+/usr/include/features.h:
+
+/usr/include/c++/11/ext/numeric_traits.h:
+
+../lib/Json/include/nlohmann/detail/value_t.hpp:
+
+/usr/include/c++/11/bits/fs_path.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+../lib/Eigen/Eigen/src/Core/util/ReshapedHelper.h:
+
+/usr/include/c++/11/bits/stl_raw_storage_iter.h:
+
+../lib/Eigen/Eigen/src/Core/Array.h:
+
+/usr/include/c++/11/bits/streambuf.tcc:
+
+/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
+
+/usr/include/endian.h:
+
+/usr/include/c++/11/bits/cpp_type_traits.h:
+
+/usr/include/c++/11/bits/stream_iterator.h:
+
+/usr/include/ctype.h:
+
+/usr/include/c++/11/locale:
+
+../lib/Eigen/Eigen/src/Core/StlIterators.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/c++/11/tr1/gamma.tcc:
+
+../lib/Json/include/nlohmann/detail/input/parser.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
+
+/usr/include/c++/11/bits/exception_defines.h:
+
+../lib/Eigen/Eigen/src/Core/Stride.h:
+
+/usr/include/c++/11/valarray:
+
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+
+/usr/include/c++/11/system_error:
+
+/usr/include/features-time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/c++/11/bits/localefwd.h:
+
+../lib/Eigen/Eigen/src/Geometry/RotationBase.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+../lib/Eigen/Eigen/src/Core/functors/NullaryFunctors.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/c++/11/bits/predefined_ops.h:
+
+../lib/Eigen/Eigen/src/Core/SelfCwiseBinaryOp.h:
+
+/usr/include/c++/11/streambuf:
+
+/usr/include/c++/11/bits/functexcept.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
+
+../lib/Eigen/Eigen/src/Core/products/GeneralMatrixVector.h:
+
+/usr/include/c++/11/tr1/special_function_util.h:
+
+/usr/include/c++/11/cstdint:
+
+../lib/Eigen/Eigen/src/Core/TriangularMatrix.h:
+
+/usr/include/c++/11/bits/invoke.h:
+
+../lib/Eigen/Eigen/src/Geometry/Quaternion.h:
+
+../lib/Json/include/nlohmann/detail/iterators/iteration_proxy.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+../lib/Eigen/Eigen/src/misc/Kernel.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/c++/11/bits/nested_exception.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
+
+../lib/Json/include/nlohmann/detail/meta/void_t.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
+
+/usr/include/c++/11/debug/assertions.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/c++/11/typeinfo:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/c++/11/bits/stringfwd.h:
+
+/usr/include/c++/11/exception:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/c++/11/ext/string_conversions.h:
+
+/usr/include/math.h:
+
+/usr/include/c++/11/bits/charconv.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/c++/11/bits/exception_ptr.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
+
+../lib/Eigen/Eigen/src/Core/Solve.h:
+
+../lib/Json/include/nlohmann/detail/meta/call_std/begin.hpp:
+
+../lib/Json/include/nlohmann/detail/iterators/iter_impl.hpp:
+
+/usr/include/c++/11/bits/cxxabi_init_exception.h:
+
+/usr/include/c++/11/iostream:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+../lib/Eigen/Eigen/src/Core/Fuzzy.h:
+
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+/usr/include/c++/11/bits/string_view.tcc:
+
+../lib/Eigen/Eigen/src/Core/functors/StlFunctors.h:
+
+/usr/include/c++/11/bits/hash_bytes.h:
+
+/usr/include/c++/11/bits/move.h:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+../lib/Eigen/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
+
+/usr/include/c++/11/bits/stl_tree.h:
+
+../src/node.h:
+
+/usr/include/c++/11/type_traits:
+
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+../lib/Eigen/Eigen/src/Core/DenseStorage.h:
+
+/usr/include/c++/11/pstl/pstl_config.h:
+
+/usr/include/c++/11/cwchar:
+
+../lib/Eigen/Eigen/src/Core/util/StaticAssert.h:
+
+../lib/Eigen/Eigen/src/Core/CoreIterators.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
+
+/usr/include/c++/11/ext/type_traits.h:
+
+/usr/include/c++/11/new:
+
+/usr/include/c++/11/bits/sstream.tcc:
+
+/usr/include/c++/11/climits:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/c++/11/bits/stl_iterator.h:
+
+../lib/Eigen/Eigen/src/Core/DeviceWrapper.h:
+
+../lib/Eigen/Eigen/src/QR/CompleteOrthogonalDecomposition.h:
+
+/usr/include/c++/11/bits/ostream.tcc:
+
+../lib/Eigen/Eigen/src/Core/products/TriangularMatrixVector.h:
+
+/usr/include/c++/11/clocale:
+
+/usr/include/c++/11/bits/unordered_map.h:
+
+/usr/include/c++/11/bits/concept_check.h:
+
+../lib/Eigen/Eigen/src/Core/DenseBase.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/c++/11/bits/stl_relops.h:
+
+../lib/Eigen/Eigen/src/Core/PermutationMatrix.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/usr/include/c++/11/bits/ios_base.h:
+
+../lib/Eigen/Eigen/src/Core/NumTraits.h:
+
+/usr/include/c++/11/ext/concurrence.h:
+
+../lib/Eigen/Eigen/src/Core/CwiseNullaryOp.h:
+
+../lib/Eigen/Eigen/src/Eigenvalues/HessenbergDecomposition.h:
+
+../lib/Eigen/Eigen/src/Core/ConditionEstimator.h:
+
+/usr/include/limits.h:
+
+../lib/Eigen/Eigen/src/Core/util/ReenableStupidWarnings.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
+
+../lib/Eigen/Eigen/src/Core/products/SelfadjointProduct.h:
+
+/usr/include/pthread.h:
+
+/usr/include/c++/11/bits/stl_pair.h:
+
+/usr/include/c++/11/ext/atomicity.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+../lib/Eigen/Eigen/src/Core/GenericPacketMath.h:
+
+/usr/include/c++/11/bits/locale_classes.h:
+
+/usr/include/c++/11/tuple:
+
+../lib/Eigen/Eigen/SVD:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
+
+../lib/Json/include/nlohmann/detail/abi_macros.hpp:
+
+/usr/include/c++/11/tr1/ell_integral.tcc:
+
+/usr/include/c++/11/tr1/exp_integral.tcc:
+
+/usr/include/c++/11/tr1/hypergeometric.tcc:
+
+/usr/include/c++/11/tr1/poly_hermite.tcc:
+
+../lib/Eigen/Eigen/Cholesky:
+
+/usr/include/c++/11/tr1/poly_laguerre.tcc:
+
+/usr/include/c++/11/bit:
+
+../lib/Eigen/Eigen/src/Core/PlainObjectBase.h:
+
+/usr/include/c++/11/tr1/riemann_zeta.tcc:
+
+/usr/include/c++/11/bits/valarray_array.h:
+
+/usr/include/c++/11/bits/stl_bvector.h:
+
+/usr/include/c++/11/bits/valarray_before.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
+
+/usr/include/c++/11/bits/slice_array.h:
+
+/usr/include/c++/11/bits/valarray_after.h:
+
+../lib/Eigen/Eigen/src/Core/util/ConfigureVectorization.h:
+
+/usr/include/c++/11/bits/gslice.h:
+
+../lib/Eigen/Eigen/src/Eigenvalues/RealSchur.h:
+
+/usr/include/c++/11/bits/streambuf_iterator.h:
+
+../lib/Eigen/Eigen/src/Core/IndexedView.h:
+
+/usr/include/c++/11/bits/gslice_array.h:
+
+/usr/include/c++/11/bits/mask_array.h:
+
+/usr/include/c++/11/string:
+
+../lib/Eigen/Eigen/src/plugins/CommonCwiseUnaryOps.inc:
+
+/usr/include/c++/11/bits/indirect_array.h:
+
+../lib/Json/include/nlohmann/detail/exceptions.hpp:
+
+../lib/Json/include/nlohmann/detail/macro_scope.hpp:
+
+/usr/include/c++/11/version:
+
+../lib/Eigen/Eigen/src/SVD/SVDBase.h:
+
+/usr/include/c++/11/cassert:
+
+../lib/Json/include/nlohmann/detail/output/serializer.hpp:
+
+../lib/Eigen/Eigen/src/Core/arch/Default/Settings.h:
+
+/usr/include/c++/11/bits/shared_ptr_atomic.h:
+
+../lib/Json/include/nlohmann/detail/string_escape.hpp:
+
+/usr/include/c++/11/ctime:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+../lib/Json/include/nlohmann/detail/meta/call_std/end.hpp:
+
+../lib/Json/include/nlohmann/json_fwd.hpp:
+
+/usr/include/c++/11/bits/stl_algo.h:
+
+../lib/Eigen/Eigen/src/Core/Select.h:
+
+../lib/Json/include/nlohmann/detail/string_concat.hpp:
+
+/usr/include/strings.h:
+
+/usr/include/c++/11/utility:
+
+../lib/Json/include/nlohmann/detail/meta/identity_tag.hpp:
+
+/usr/include/c++/11/filesystem:
+
+/usr/include/c++/11/ratio:
+
+../lib/Eigen/Eigen/src/Core/GlobalFunctions.h:
+
+/usr/include/c++/11/bits/parse_numbers.h:
+
+/usr/include/c++/11/bits/locale_facets_nonio.h:
+
+/usr/include/c++/11/bits/basic_ios.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/c++/11/bits/char_traits.h:
+
+/usr/include/libintl.h:
+
+/usr/include/c++/11/bits/locale_facets_nonio.tcc:
+
+/usr/include/c++/11/bits/locale_conv.h:
+
+/usr/include/c++/11/bits/quoted_string.h:
+
+../lib/Eigen/Eigen/Core:
+
+/usr/include/c++/11/sstream:
+
+/usr/include/c++/11/bits/fs_dir.h:
+
+/usr/include/c++/11/bits/fs_ops.h:
+
+/usr/include/c++/11/initializer_list:
+
+../lib/Eigen/Eigen/src/Core/products/TriangularSolverMatrix.h:
+
+../lib/Eigen/Eigen/src/Geometry/OrthoMethods.h:
+
+/usr/include/c++/11/optional:
+
+../lib/Eigen/Eigen/src/Core/SelfAdjointView.h:
+
+../lib/Json/include/nlohmann/detail/conversions/to_json.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/c++/11/istream:
+
+../lib/Json/include/nlohmann/detail/input/binary_reader.hpp:
+
+../lib/Json/include/nlohmann/detail/input/input_adapters.hpp:
+
+/usr/include/c++/11/pstl/glue_memory_defs.h:
+
+../lib/Eigen/Eigen/src/Core/arch/Default/ConjHelper.h:
+
+/usr/include/c++/11/numeric:
+
+../lib/Eigen/Eigen/src/Core/functors/TernaryFunctors.h:
+
+/usr/include/c++/11/bits/stl_numeric.h:
+
+../lib/Json/include/nlohmann/detail/iterators/iterator_traits.hpp:
+
+../lib/Json/include/nlohmann/detail/input/json_sax.hpp:
+
+../lib/Json/include/nlohmann/detail/input/lexer.hpp:
+
+../lib/Json/include/nlohmann/detail/meta/is_sax.hpp:
+
+../lib/Eigen/Eigen/src/Core/Assign.h:
+
+/usr/include/c++/11/algorithm:
+
+../lib/Json/include/nlohmann/detail/iterators/internal_iterator.hpp:
+
+../lib/Eigen/Eigen/src/Core/Map.h:
+
+../lib/Eigen/Eigen/src/Core/SolverBase.h:
+
+../lib/Json/include/nlohmann/detail/iterators/primitive_iterator.hpp:
+
+../lib/Json/include/nlohmann/byte_container_with_subtype.hpp:
+
+../lib/Json/include/nlohmann/detail/json_custom_base_class.hpp:
+
+../lib/Eigen/Eigen/src/Core/ArrayBase.h:
+
+../lib/Json/include/nlohmann/detail/json_pointer.hpp:
+
+../lib/Eigen/Eigen/src/Core/BandMatrix.h:
+
+../lib/Eigen/Eigen/src/Core/util/Meta.h:
+
+../lib/Json/include/nlohmann/detail/output/binary_writer.hpp:
+
+../lib/Json/include/nlohmann/detail/output/output_adapters.hpp:
+
+../lib/Eigen/Eigen/src/plugins/IndexedViewMethods.inc:
+
+../lib/Json/include/nlohmann/detail/conversions/to_chars.hpp:
+
+../lib/Json/include/nlohmann/thirdparty/hedley/hedley_undef.hpp:
+
+../src/element.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+../lib/Eigen/Eigen/Dense:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
+
+../lib/Eigen/Eigen/src/Core/util/DisableStupidWarnings.h:
+
+../lib/Eigen/Eigen/src/Core/util/Macros.h:
+
+../lib/Eigen/Eigen/src/SVD/JacobiSVD.h:
+
+../lib/Json/include/nlohmann/detail/meta/cpp_future.hpp:
+
+../lib/Eigen/Eigen/src/Core/InternalHeaderCheck.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h:
+
+../lib/Eigen/Eigen/src/Core/util/MKL_support.h:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+../lib/Eigen/Eigen/src/Core/InnerProduct.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+../lib/Eigen/Eigen/src/Core/arch/SSE/Complex.h:
+
+../lib/Eigen/Eigen/src/Core/util/Constants.h:
+
+../lib/Eigen/Eigen/src/Core/util/ForwardDeclarations.h:
+
+../lib/Eigen/Eigen/src/LU/InternalHeaderCheck.h:
+
+../lib/Eigen/Eigen/src/Core/util/IntegralConstant.h:
+
+../lib/Eigen/Eigen/src/Core/util/SymbolicIndex.h:
+
+../lib/Eigen/Eigen/src/Core/util/EmulateArray.h:
+
+../lib/Eigen/Eigen/src/Core/util/MoreMeta.h:
+
+../lib/Eigen/Eigen/src/Core/MathFunctions.h:
+
+../lib/Eigen/Eigen/src/Geometry/Transform.h:
+
+../lib/Eigen/Eigen/src/Core/MathFunctionsImpl.h:
+
+../lib/Eigen/Eigen/src/Core/arch/Default/Half.h:
+
+../lib/Eigen/Eigen/src/Core/arch/SSE/TypeCasting.h:
+
+../lib/Eigen/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h:
+
+../lib/Eigen/Eigen/src/Core/functors/BinaryFunctors.h:
+
+../lib/Eigen/Eigen/src/Core/functors/UnaryFunctors.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+../lib/Eigen/Eigen/src/Core/functors/AssignmentFunctors.h:
+
+/usr/include/c++/11/bits/fstream.tcc:
+
+../lib/Eigen/Eigen/src/LU/arch/InverseSize4.h:
+
+../lib/Eigen/Eigen/src/Core/CwiseUnaryView.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/wchar.h:
+
+../lib/Eigen/Eigen/src/Core/util/IndexedViewHelper.h:
+
+/usr/include/c++/11/bits/exception.h:
+
+../lib/Eigen/Eigen/src/QR/HouseholderQR.h:
+
+../lib/Eigen/Eigen/src/Core/Dot.h:
+
+../lib/Eigen/Eigen/src/Core/ArithmeticSequence.h:
+
+../lib/Eigen/Eigen/src/plugins/MatrixCwiseUnaryOps.inc:
+
+/usr/include/c++/11/bits/stl_algobase.h:
+
+../lib/Eigen/Eigen/src/Core/IO.h:
+
+/usr/include/c++/11/bits/uniform_int_dist.h:
+
+../lib/Eigen/Eigen/src/plugins/ReshapedMethods.inc:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
+
+../lib/Eigen/Eigen/src/Core/MatrixBase.h:
+
+../lib/Eigen/Eigen/src/plugins/CommonCwiseBinaryOps.inc:
+
+../lib/Eigen/Eigen/src/misc/Image.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+../lib/Eigen/Eigen/src/Householder/InternalHeaderCheck.h:
+
+/usr/include/c++/11/fstream:
+
+../lib/Eigen/Eigen/src/plugins/MatrixCwiseBinaryOps.inc:
+
+../lib/Eigen/Eigen/src/Core/CoreEvaluators.h:
+
+../lib/Eigen/Eigen/src/Core/AssignEvaluator.h:
+
+../lib/Eigen/Eigen/src/plugins/ArrayCwiseUnaryOps.inc:
+
+../lib/Eigen/Eigen/src/plugins/ArrayCwiseBinaryOps.inc:
+
+../lib/Eigen/Eigen/src/Core/NestByValue.h:
+
+../lib/Eigen/Eigen/src/LU/InverseImpl.h:
+
+../lib/Json/include/nlohmann/detail/macro_unscope.hpp:
+
+../lib/Eigen/Eigen/src/QR/ColPivHouseholderQR.h:
+
+/usr/include/alloca.h:
+
+../lib/Eigen/Eigen/src/Core/NoAlias.h:
+
+/usr/include/time.h:
+
+../lib/Eigen/Eigen/src/LU/Determinant.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+../lib/Eigen/Eigen/src/Core/Fill.h:
+
+../lib/Eigen/Eigen/src/Core/CwiseTernaryOp.h:
+
+../lib/Eigen/Eigen/src/Core/CwiseBinaryOp.h:
+
+../lib/Eigen/Eigen/src/Core/CwiseUnaryOp.h:
+
+../lib/Eigen/Eigen/src/Core/MapBase.h:
+
+/usr/include/c++/11/ext/new_allocator.h:
+
+../lib/Json/include/nlohmann/detail/meta/detected.hpp:
+
+../lib/Eigen/Eigen/src/Core/Ref.h:
+
+../lib/Eigen/Eigen/src/Core/Block.h:
+
+../lib/Eigen/Eigen/src/Core/VectorBlock.h:
+
+/usr/include/c++/11/tr1/modified_bessel_func.tcc:
+
+../lib/Eigen/Eigen/src/Core/Transpose.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h:
+
+../lib/Eigen/Eigen/src/Core/Diagonal.h:
+
+../lib/Eigen/Eigen/src/Core/DiagonalProduct.h:
+
+/usr/include/c++/11/bits/atomic_base.h:
+
+../lib/Eigen/Eigen/src/Core/SkewSymmetricMatrix3.h:
+
+../lib/Eigen/Eigen/src/Core/CommaInitializer.h:
+
+../lib/Eigen/Eigen/src/Core/GeneralProduct.h:
+
+/usr/include/c++/11/debug/debug.h:
+
+../lib/Eigen/Eigen/src/Geometry/InternalHeaderCheck.h:
+
+../lib/Eigen/Eigen/src/Core/Transpositions.h:
+
+/usr/include/c++/11/bits/forward_list.h:
+
+../lib/Eigen/Eigen/src/Core/products/SelfadjointMatrixMatrix.h:
+
+../lib/Eigen/Eigen/src/Cholesky/InternalHeaderCheck.h:
+
+../lib/Eigen/Eigen/src/Core/products/Parallelizer.h:
+
+../lib/Eigen/Eigen/src/Core/products/GeneralMatrixMatrix.h:
+
+../lib/Eigen/Eigen/src/Core/SolveTriangular.h:
+
+/usr/include/c++/11/bits/vector.tcc:
+
+../lib/Eigen/Eigen/src/QR/FullPivHouseholderQR.h:
+
+../lib/Eigen/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h:
+
+../lib/Eigen/Eigen/src/misc/InternalHeaderCheck.h:
+
+../lib/Eigen/Eigen/src/Core/products/SelfadjointMatrixVector.h:
+
+../lib/Eigen/Eigen/src/Core/products/SelfadjointRank2Update.h:
+
+/usr/include/c++/11/array:
+
+../lib/Eigen/Eigen/src/Core/products/TriangularMatrixMatrix.h:
+
+../lib/Eigen/Eigen/src/Core/products/TriangularSolverVector.h:
+
+../lib/Json/include/nlohmann/thirdparty/hedley/hedley.hpp:
+
+../lib/Eigen/Eigen/src/Core/VectorwiseOp.h:
+
+../lib/Eigen/Eigen/src/Core/Reshaped.h:
+
+../lib/Eigen/Eigen/src/Householder/HouseholderSequence.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+../lib/Eigen/Eigen/src/Core/PartialReduxEvaluator.h:
+
+/usr/include/c++/11/codecvt:
+
+/usr/include/c++/11/bits/allocated_ptr.h:
+
+/usr/include/assert.h:
+
+../lib/Eigen/Eigen/src/SVD/BDCSVD.h:
+
+../lib/Eigen/Eigen/src/Core/Random.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+../lib/Eigen/Eigen/src/Core/Replicate.h:
+
+../lib/Eigen/Eigen/src/Core/Reverse.h:
+
+../lib/Eigen/Eigen/src/Core/ArrayWrapper.h:
+
+../lib/Eigen/Eigen/LU:
+
+../lib/Eigen/Eigen/src/LU/PartialPivLU.h:
+
+/usr/include/c++/11/bits/hashtable.h:
+
+../lib/Eigen/Eigen/Jacobi:
+
+../lib/Eigen/Eigen/src/Cholesky/LLT.h:
+
+../lib/Eigen/Eigen/src/Cholesky/LDLT.h:
+
+../lib/Eigen/Eigen/src/Core/ReturnByValue.h:
+
+../lib/Eigen/Eigen/src/Householder/Householder.h:
+
+../lib/Eigen/Eigen/src/Householder/BlockHouseholder.h:
+
+../lib/Eigen/Eigen/src/QR/InternalHeaderCheck.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
+
+../lib/Eigen/Eigen/src/Core/arch/Default/BFloat16.h:
+
+../lib/Eigen/Eigen/src/misc/RealSvd2x2.h:
+
+../lib/Eigen/Eigen/src/SVD/UpperBidiagonalization.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+../src/material.h:
+
+../lib/Eigen/Eigen/Geometry:

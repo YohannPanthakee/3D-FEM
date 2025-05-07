@@ -12,6 +12,16 @@ void Mesh::loadFromJson(const std::string& filename) {
 
     json data;
     file >> data;
+
+    // Materials
+    for (const auto& matData : data["materials"]) {
+        Materials mmaterial(
+            matData["name"], 
+            matData["properties"]["youngs_modulus"], 
+            matData["properties"]["cross_sectional_area"]
+        );
+        material.insert({matData["name"], mmaterial});
+    }
     
     // Nodes
     for (const auto& nodeData : data["nodes"]) {
@@ -45,20 +55,9 @@ void Mesh::loadFromJson(const std::string& filename) {
             elemData["id"],
             getNodeByID(elemData["node_ids"][0]),
             getNodeByID(elemData["node_ids"][1]),
-            elemData["material_name"]
+            getMaterialByName(elemData["material_name"])
         );
         element.insert({elemData["id"], eelement});
-    }
-
-
-    // Materials
-    for (const auto& matData : data["materials"]) {
-        Materials mmaterial(
-            matData["name"], 
-            matData["properties"]["youngs_modulus"], 
-            matData["properties"]["cross_sectional_area"]
-        );
-        material.insert({matData["name"], mmaterial});
     }
 
 }
@@ -72,5 +71,10 @@ Nodes Mesh::getNodeByID(int target_node_id)
 Elements Mesh::getElementByID(int target_element_id)
 {
     return element.at(target_element_id);
+}
+    
+Materials Mesh::getMaterialByName(std::string target_material_name)
+{
+    return material.at(target_material_name);
 }
     

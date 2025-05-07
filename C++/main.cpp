@@ -2,7 +2,7 @@
 #include <iostream>
 #include "src/mesh.h"
 
-//#include <Eigen/Dense>
+#include <Eigen/Dense>
 //#include <matplotlibcpp.h>
 //namespace plt = matplotlibcpp;
 
@@ -15,18 +15,14 @@ int main() {
     
     mesh.loadFromJson(f);
 
-    //std::cout << "Loaded: " << mesh.node.size() << " Mesh nodes\n";
-    //std::cout << "Loaded: " << mesh.element.size() << " Elements \n";
-
-
     std::string material_name = "Aluminium";  // Example name of material
     int elemID = 1;  // Example element ID
     int nodeID = 1;  // Example Node ID
 
     Materials mat = mesh.material.at(material_name);
-    std::cout << "Material Name: " << mat.name << std::endl;
-    std::cout << "Young's Modulus: " << mat.youngs_modulus << std::endl;
-    std::cout << "Cross-sectional Area: " << mat.cross_sectional_area << std::endl;
+    std::cout << "Material Name: " << mat.getMatName() << std::endl;
+    std::cout << "Young's Modulus: " << mat.getMatYMOD() << std::endl;
+    std::cout << "Cross-sectional Area: " << mat.getMatCSA() << std::endl;
 
     Elements ele = mesh.element.at(elemID);
     std::cout << "Element Id: " << ele.getElementID() << std::endl;
@@ -37,8 +33,9 @@ int main() {
     std::cout << " Element End Node Pos y: " << ele.getEndPoseY() << std::endl;
     std::cout << " Element End Node Pos z: " << ele.getEndPoseZ() << std::endl;
     std::cout << " length: " << ele.getElementLength() << std::endl;
-    std::cout << "Angle: " << ele.getElementAngle() << std::endl;
-    std::cout << " material_name: " << ele.getElementMaterial() << std::endl;
+    std::cout << " Angle: " << ele.getElementAngle() << std::endl;
+    std::cout << " material Constant: " << ele.getMatConstant() << std::endl;
+    std::cout << " material Stress Constant: " << ele.getMatStressConstant() << std::endl;
 
     Nodes node = mesh.node.at(nodeID);
     std::cout << "Node Id: " << node.getID() << std::endl;

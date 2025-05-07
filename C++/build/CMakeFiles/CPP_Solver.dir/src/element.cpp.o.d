@@ -169,4 +169,5 @@ CMakeFiles/CPP_Solver.dir/src/element.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /home/yohann/projects/3D-FEM/C++/src/node.h
+ /home/yohann/projects/3D-FEM/C++/src/node.h \
+ /home/yohann/projects/3D-FEM/C++/src/material.h
