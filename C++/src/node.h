@@ -1,7 +1,6 @@
 #ifndef NODE_H
 #define NODE_H
 
-
 #include <array>
 
 struct Position {
@@ -10,20 +9,42 @@ struct Position {
     double z;
 };
 
+struct Load {
+    double x;
+    double y;
+    double z;
+};
+
+struct Constraint {
+    double x;
+    double y;
+    double z;
+};
+
+
 class Nodes {
-    public:
+    
         int id;
         Position pose;
-        //std::array<double, 3> pose;
-        std::array<double, 3> load;
-        std::array<int, 3> constraint;
+        Load load;
+        Constraint constraint;
+    
+public:
+        Nodes(int id, Position pose, Load load, Constraint constraint);
 
-        Nodes(int id, 
-            const std::array<double, 3>& pose,
-            const std::array<double, 3>& load,
-            const std::array<int, 3>& constraint);
-        
-        Nodes(int id, Position pos, const std::array<double, 3>& load, const std::array<int, 3>& constraint);
+        double getLoadX();
+        double getLoadY();
+        double getLoadZ();
+
+        double getPoseX();
+        double getPoseY();
+        double getPoseZ();
+
+        int getConstraintX();
+        int getConstraintY();
+        int getConstraintZ();
+    
+        int getID();
     };
 #endif
 

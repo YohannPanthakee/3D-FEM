@@ -12,21 +12,31 @@ class Elements {
     std::string material_name;
     double length, angle = {};
     
-    const Nodes start_node;
-    const Nodes end_node;
+    Nodes start_node;
+    Nodes end_node;
 
 public:
 
     Elements(int id, 
-            const Nodes& start_node, 
-            const Nodes& end_node, 
-            const std::string& material_name);
+            const Nodes start_node, 
+            const Nodes end_node, 
+            const std::string material_name);
     
+    int getElementID();
+
     double getStartPoseX();
     double getStartPoseY();
     double getStartPoseZ();
 
-    int getElementID();
+    double getEndPoseX();
+    double getEndPoseY();
+    double getEndPoseZ();
+
+
+    double getElementLength();
+    double getElementAngle();
+    std::string getElementMaterial();
+    
 };
 
 #endif 

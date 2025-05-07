@@ -20,17 +20,21 @@ void Mesh::loadFromJson(const std::string& filename) {
         nodePose.y = nodeData["pos"][1].get<double>();
         nodePose.z = nodeData["pos"][2].get<double>();
 
-        std::cout << "Node ID: " << nodeData["id"];
-        std::cout << " NodePose - x: " << nodePose.x;
-        std::cout << " NodePose - y: " << nodePose.y;
-        std::cout << std::endl;
+        Load nodeLoad;
+        nodeLoad.x = nodeData["load"][0].get<double>();
+        nodeLoad.y = nodeData["load"][1].get<double>();
+        nodeLoad.z = nodeData["load"][2].get<double>();
 
+        Constraint nodeConstraint;
+        nodeConstraint.x = nodeData["constraint"][0].get<int>();
+        nodeConstraint.y = nodeData["constraint"][1].get<int>();
+        nodeConstraint.z = nodeData["constraint"][2].get<int>();
 
         Nodes nnode(
             nodeData["id"],
             nodePose,
-            std::array<double, 3>{nodeData["load"][0], nodeData["load"][1], nodeData["load"][2]},
-            std::array<int, 3>{nodeData["constraint"][0], nodeData["constraint"][1], nodeData["constraint"][2]}
+            nodeLoad,
+            nodeConstraint
         );
         node.insert({nodeData["id"], nnode});
     }
