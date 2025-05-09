@@ -2,7 +2,7 @@
 #include <iostream>
 #include "src/mesh.h"
 
-#include <Eigen/Dense>
+
 //#include <matplotlibcpp.h>
 //namespace plt = matplotlibcpp;
 

@@ -70,7 +70,7 @@
     },
     {
       "id": 2,
-      "node_ids": [2,3],
+      "node_ids": [2,4],
       "material_name": "Aluminium"
     }
   ],
