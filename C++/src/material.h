@@ -4,21 +4,28 @@
 
 #include <iostream>
 
+struct Properties {
+    double youngs_modulus;
+    double cross_section_area;
+    std::string name;
+};
+
+
+
 class Materials {
 
         std::string name;
         double youngs_modulus;
-        double cross_sectional_area;
+        double cross_section_area;
 
 public:
         Materials(const std::string name, 
             double youngs_modulus, 
-            double cross_sectional_area);
+            double cross_section_area);
 
-        double getMatYMOD();
-        double getMatCSA();
-        std::string getMatName();
+        Properties getMaterial();
 };
 
 
 #endif 
+

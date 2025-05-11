@@ -11,55 +11,22 @@ int Nodes::getID(){
 }
 
 
-double Nodes::getLoadX() 
+Position Nodes::getPose()
 {
-    return load.x;
+    return pose;
 }
 
-double Nodes::getLoadY() 
+Load Nodes::getLoad()
 {
-    return load.y;
+    return load;
 }
 
-double Nodes::getLoadZ() 
+Constraint Nodes::getConstraint()
 {
-    return load.z;
-}
-
-
-
-
-double Nodes::getPoseX() 
-{
-    return pose.x;
-}
-
-double Nodes::getPoseY() 
-{
-    return pose.y;
-}
-
-double Nodes::getPoseZ() 
-{
-    return pose.z;
+    return constraint;
 }
 
 
-
-int Nodes::getConstraintX() 
-{
-    return constraint.x;
-}
-
-int Nodes::getConstraintY() 
-{
-    return constraint.y;
-}
-
-int Nodes::getConstraintZ() 
-{
-    return constraint.z;
-}
 
 
 

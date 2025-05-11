@@ -7,29 +7,41 @@
 #include "node.h"
 #include "material.h"
 
+
 #include <Eigen/Dense>
 
-struct delta_length {
-    double x;
-    double y;
-    double z;
-};
+struct Delta {
 
-struct delta_angle {
-    double cx;
-    double cy;
-    double cz;
+    struct Angle {
+        double cx;
+        double cy;
+        double cz;
 
-    double cxy;
-    double cxz;
-    double cyz;
+        double cxy;
+        double cxz;
+        double cyz;
+
+    };
+
+    struct Length {
+        double x;
+        double y;
+        double z;
+        
+    };
+
+    double elementLength;
+    double elementAngle;
+
+    // Member variables for Delta
+    Angle angle;
+    Length length;
 };
 
 class Elements {
     
     int id;
-    double length, angle = {};
-    
+
     Nodes start_node;
     Nodes end_node;
     Materials material;
@@ -39,7 +51,7 @@ class Elements {
 
     std::array<int,6> DOF_array = {};
 
-    Eigen::Matrix<double, 6, 6> local_stiffness;
+    Eigen::Matrix<double, 6, 6> matrix;
 
 public:
 
@@ -50,14 +62,6 @@ public:
     
     int getElementID();
 
-    double getStartPoseX();
-    double getStartPoseY();
-    double getStartPoseZ();
-
-    double getEndPoseX();
-    double getEndPoseY();
-    double getEndPoseZ();
-
     double getElementLength();
     double getElementAngle();
 
@@ -66,11 +70,9 @@ public:
 
     void fill_DOF_array(int node_id_1, int node_id_2);
     
-    void fill_local_stiffness(double CXY, double CXZ , double CYZ, double Constant);
+    void fill_local_stiffness(Delta delta, double mat_constant);
 
     
-
-    //std::string getElementMaterial();
     
 };
 

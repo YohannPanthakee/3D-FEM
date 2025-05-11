@@ -32,17 +32,10 @@ class Nodes {
 public:
         Nodes(int id, Position pose, Load load, Constraint constraint);
 
-        double getLoadX();
-        double getLoadY();
-        double getLoadZ();
 
-        double getPoseX();
-        double getPoseY();
-        double getPoseZ();
-
-        int getConstraintX();
-        int getConstraintY();
-        int getConstraintZ();
+        Position getPose();
+        Load getLoad();
+        Constraint getConstraint();
     
         int getID();
     };
